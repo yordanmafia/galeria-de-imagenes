@@ -431,10 +431,14 @@ var data = {
 	},
 };
 
+/**importando base de datos fotos */
+
+
+/**  descomponiendo arreglo en variable */
 const { fotos } = data;
 
 var dataCategorias = {
-	categorias: [
+	categorias: [                       /*** se importa la base de datos para contar la length de las imagenes */
 		{ id: 'america', nombre: 'America', numeroFotos: fotos['america'].length, imagenPortada: './img/america.jpg' },
 		{ id: 'europa', nombre: 'Europa', numeroFotos: fotos['europa'].length, imagenPortada: './img/europa.jpg' },
 		{ id: 'africa', nombre: 'África', numeroFotos: fotos['africa'].length, imagenPortada: './img/africa.jpg' },
@@ -472,5 +476,3 @@ categorias.forEach((categoria)=>{
     
     contenedorCategorias.append(nuevaCategoria);
 });
-
-console.log(categorias);

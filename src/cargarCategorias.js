@@ -23,4 +23,3 @@ categorias.forEach((categoria)=>{
     contenedorCategorias.append(nuevaCategoria);
 })
 
-console.log(categorias)
