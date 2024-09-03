@@ -4,7 +4,7 @@ import data from './fotos';
 
 /**  descomponiendo arreglo en variable */
 const { fotos } = data;
-
+/***exportando categorias */
 export default {
 	categorias: [                       /*** se importa la base de datos para contar la length de las imagenes */
 		{ id: 'america', nombre: 'America', numeroFotos: fotos['america'].length, imagenPortada: './img/america.jpg' },
